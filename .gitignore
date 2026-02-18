@@ -1,0 +1,24 @@
+# Compiled Python
+__pycache__/
+*.py[cod]
+
+# Generated outputs (large binary / reproducible)
+*.npy
+*.png
+
+# Generated CSVs (reproducible by running the pipeline)
+resultados_5_casos_optimizados.csv
+acciones_diarias.csv
+acciones_horarias.csv
+acciones_mensuales.csv
+mis_datos_stock.csv
+
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+
+# Claude / internal docs
+CLAUDE.md
+proyecto.txt
